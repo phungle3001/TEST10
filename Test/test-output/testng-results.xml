@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testsuite login" duration-ms="7430" started-at="2020-06-05T01:48:56Z" finished-at="2020-06-05T01:49:03Z">
+  <suite name="testsuite" duration-ms="8340" started-at="2020-06-05T16:08:48Z" finished-at="2020-06-05T16:08:56Z">
     <groups>
     </groups>
-    <test name="testlogin" duration-ms="7430" started-at="2020-06-05T01:48:56Z" finished-at="2020-06-05T01:49:03Z">
+    <test name="testhomepage" duration-ms="8340" started-at="2020-06-05T16:08:48Z" finished-at="2020-06-05T16:08:56Z">
       <class name="Test.TestCase.TestCase">
-        <test-method status="PASS" signature="initializeWeb()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="initializeWeb" is-config="true" duration-ms="18180" started-at="2020-06-05T01:48:38Z" finished-at="2020-06-05T01:48:56Z">
+        <test-method status="PASS" signature="initializeWeb()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="initializeWeb" is-config="true" duration-ms="25000" started-at="2020-06-05T16:08:23Z" finished-at="2020-06-05T16:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeWeb -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="test1" duration-ms="2277" started-at="2020-06-05T01:48:56Z" finished-at="2020-06-05T01:48:58Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="login" duration-ms="3175" started-at="2020-06-05T16:08:48Z" finished-at="2020-06-05T16:08:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="test2" duration-ms="2812" started-at="2020-06-05T01:48:58Z" finished-at="2020-06-05T01:49:01Z">
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="verifyFilter()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="verifyFilter" duration-ms="2631" started-at="2020-06-05T16:08:51Z" finished-at="2020-06-05T16:08:54Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at Test.TestCase.TestCase.test2(TestCase.java:79)
+at Test.TestCase.TestCase.verifyFilter(TestCase.java:79)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -59,12 +59,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="test3" duration-ms="2198" started-at="2020-06-05T01:49:01Z" finished-at="2020-06-05T01:49:03Z">
+        </test-method> <!-- verifyFilter -->
+        <test-method status="PASS" signature="verifySort()[pri:0, instance:Test.TestCase.TestCase@6a41eaa2]" name="verifySort" duration-ms="2204" started-at="2020-06-05T16:08:54Z" finished-at="2020-06-05T16:08:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
+        </test-method> <!-- verifySort -->
       </class> <!-- Test.TestCase.TestCase -->
-    </test> <!-- testlogin -->
-  </suite> <!-- testsuite login -->
+    </test> <!-- testhomepage -->
+  </suite> <!-- testsuite -->
 </testng-results>

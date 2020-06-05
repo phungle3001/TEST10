@@ -95,7 +95,9 @@ public class HomepageAction {
 				}
 				if (check == false) {
 					// after set false, break down loop and return false
+					System.out.println("--------------------------------------------------------------");
 					System.out.println("There is at least one request which has status NOT being Inactive");
+					System.out.println("--------------------------------------------------------------");
 					break;
 				}
 			}
